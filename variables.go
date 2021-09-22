@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-func variables() {
+func main() {
    // var name type = expression
    var cars int = 1
    fmt.Println(cars)

@@ -28,7 +28,7 @@ import "fmt"
 //            - not-main
 //                - (all files under this package)
 	
-func scopes() {
+func main() {
 
     fmt.Println("Hello World")
 
