@@ -28,7 +28,7 @@ type ninjaWeapon interface {
 	attack()
 }
  
-func main() {
+func switch_case() {
 	weapons := []ninjaWeapon{ninjaStar{owner: "wallace"}, ninjaSword{owner: "wallace"}}
 
 	for _, weapon := range weapons {
